@@ -12,18 +12,30 @@ body {
   height: 475px;
   display: block;
   margin: 12% auto auto 200px;
+  transition: all ease 1s;
 }
 
+
+
+
 #contactContainer {
-  margin-top: 180px;
-  margin-left: 110px;
+  margin: 180px auto auto 100px;
   position: absolute;
   display: flex;
   justify-content: space-between;
   flex-direction: column;
-  border: 1px red solid;
   height: 500px;
   width: 250px;
+}
+
+#linksContainer {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  width: 1300px;
+  height: 800px;
+  margin-top: 120px;
+  margin-left: 900px;
 }
 
 .contact {
@@ -35,4 +47,34 @@ body {
 
 #email {
   align-self: end;
+}
+
+.links {
+  width: 400px;
+  height: 100px;
+  color: white;
+  transition: 0.5s ease all;
+}
+
+#github {
+  background-image: url("./imgs/githubbackground.jpg");
+  margin-top: 50px;
+  align-self: center;
+  width: 400px;
+}
+
+#instagram {
+  background-image: url("./imgs/instagrambackground.jpg");
+  margin-top: 10%;
+}
+
+#soundcloud {
+  background-image: url("./imgs/soundcloudbackground.jpg");
+  align-self: end;
+  margin-bottom: 50px;
+}
+
+.links:hover {
+  transform: translateY(-10px);
+  box-shadow: 15px 15px 10px rgb(0, 0, 0);
 }
