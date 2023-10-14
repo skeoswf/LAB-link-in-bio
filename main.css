@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+
 body {
   background-image: url("./imgs/background.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-
+  user-select: none;
 }
 
 #me {
@@ -19,13 +22,9 @@ body {
 
 
 #contactContainer {
-  margin: 180px auto auto 100px;
+  margin: 225px auto auto 100px;
   position: absolute;
   display: flex;
-  justify-content: space-between;
-  flex-direction: column;
-  height: 500px;
-  width: 250px;
 }
 
 #linksContainer {
@@ -40,9 +39,12 @@ body {
 
 .contact {
   width: 90px;
-  height: 90px;
-  border: 1px solid white;
-  border-radius: 50%;
+  height: 90px;;
+  font-family: Montserrat;
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+  text-shadow: 0px 0px 10px black;
 }
 
 #email {
@@ -54,6 +56,10 @@ body {
   height: 100px;
   color: white;
   transition: 0.5s ease all;
+  text-align: center;
+  line-height: 100px;
+  font-size: 50px;
+  text-shadow: 0px 0px 2px yellow;
 }
 
 #github {
@@ -77,4 +83,39 @@ body {
 .links:hover {
   transform: translateY(-10px);
   box-shadow: 15px 15px 10px rgb(0, 0, 0);
+  cursor: pointer;
+}
+
+#name {
+  position: absolute;
+  margin: 720px auto auto 500px;
+  font-size: 100px;
+  font-family: Montserrat;
+  color: rgb(255, 255, 255);
+  text-shadow: 0px 0px 15px rgb(0, 25, 94);
+}
+
+.absolute {
+  position: absolute;
+  color: yellow;
+  font-size: 25px;
+  opacity: 0%;
+  text-shadow: 0px 0px 2px white;
+
+  transition: ease all 0.4s;
+}
+
+#github2 {
+  margin-top: 420px;
+  margin-left: 800px;
+}
+
+#instagram2 {
+  margin-top: 380px;
+  margin-left: 1700px;
+}
+
+#soundcloud2 {
+  margin-top: 920px;
+  margin-left: 1600px;
 }
