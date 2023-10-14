@@ -1,3 +1,38 @@
 body {
-  background-color: orange;
+  background-image: url("./imgs/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+#me {
+  position: absolute;
+  z-index: -1;
+  width: 475px;
+  height: 475px;
+  display: block;
+  margin: 12% auto auto 200px;
+}
+
+#contactContainer {
+  margin-top: 180px;
+  margin-left: 110px;
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  border: 1px red solid;
+  height: 500px;
+  width: 250px;
+}
+
+.contact {
+  width: 90px;
+  height: 90px;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+
+#email {
+  align-self: end;
 }
