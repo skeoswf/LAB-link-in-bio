@@ -18,4 +18,4 @@ Here is an example:
 
 <img width="786" alt="lib" src="https://user-images.githubusercontent.com/29741570/189382443-4714fb38-828b-497a-9dca-f4916972eec8.png">
 
-NOTE FROM SKEO: please zoom out to 80% if on a 1920x1080 screen; i coded selfishly just for my 2560x1440 screen
+NOTE FROM SKEO: please zoom out to where you longer can scroll around; i coded selfishly just for my 2560x1440 screen. itd look weird/perform broken otherwise!
